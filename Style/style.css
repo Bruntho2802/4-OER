@@ -1,0 +1,111 @@
+/* contactpagina */
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titlecontact {
+    font-size: 120px;
+}
+
+.contacten {
+    margin-top: 100px;
+    padding: 30px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.contactimage {
+    margin-bottom: -20px;
+    width: 40%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.e-mail {
+    text-align: center;
+}
+
+.mail {
+    color: white;
+    text-align: center; 
+}
+
+.nummer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.telefoon {
+    color: white;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.social {
+    width: 30%;
+}
+
+/* 4OER */
+
+body {
+    text-align: center;
+}
+
+#board {
+    display: flex;
+    justify-content: center;
+    height: 540px;
+    width: 600px;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* set the border color based on the current player's turn */
+    border: 10px solid var(--border-color);
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
+
+/* set custom CSS variables */
+:root {
+    --border-color-red: rgb(246, 0, 0);
+    --border-color-yellow: yellow;
+}
+
+  /* 4OER */
+
+  .parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -970px;
+     /* set the height to 100% of the viewport height */
+  }
+  
